@@ -106,7 +106,7 @@ var ALL_KEYWORDS = [
 		//-------------
 		["smiling face with horns", "demon", "fantasy", "smile", "devil"],
 		["angry face with horns", "demon", "devil", "fantasy", "imp"],
-		["ogre", "creature", "fairy tale", "fantasy", "monster", "troll"],
+		["ogre", "creature", "fairy tale", "fantasy", "monster", "troll", "scary"],
 		["goblin", "creature", "fairy tale", "fantasy", "monster"],
 		["skull", "death", "fairy tale", "monster"],
 		["skull and crossbones", "crossbones", "death", "monster", "skull"],
@@ -115,7 +115,7 @@ var ALL_KEYWORDS = [
 		["alien monster", "alien", "creature", "extraterrestrial", "fantasy", "monster", "ufo"],
 		["robot face", "monster", "robot", "android"],
 		//-------------
-		["pile of poo", "comic", "dung", "monster", "poo", "poop", "hankey", "bad code"],
+		["pile of poo", "comic", "dung", "poo", "poop", "hankey", "bad code"],
 		["smiling cat face with open mouth", "cat", "mouth", "open", "smile"],
 		["grinning cat face with smiling eyes", "cat", "grin", "smile"],
 		["cat face with tears of joy", "cat", "joy", "tear"],
@@ -145,7 +145,7 @@ var ALL_KEYWORDS = [
 		["vulcan salute", "finger", "hand", "spock", "vulcan", 'HAS_TONE'],
 		["sign of the horns", "finger", "hand", "horns", "rock-on", 'HAS_TONE'],
 		["call me hand", "call", "hand", 'HAS_TONE'],
-		["raised hand with fingers splayed", "finger", "hand", "splayed", 'HAS_TONE'],
+		["raised hand with fingers splayed","finger", "hand", "splayed", "peace", "victory", 'HAS_TONE'],
 		["raised hand", "hand", 'HAS_TONE'],
 		["ok hand", "ok", "ok", "hand", 'HAS_TONE'],
 		["thumbs up", "hand", "thumb", "up", 'HAS_TONE'],
@@ -337,7 +337,7 @@ var ALL_KEYWORDS = [
 	//-----animals--------------------------------------------------------------
 		["monkey face", "monkey"],
 		["monkey", "monkey"],
-		["gorilla", "gorilla", "monkey"],
+		["gorilla", "gorilla", "monkey", "ape"],
 		["dog face", "dog", "pet"],
 		["dog", "pet"],
 		["poodle", "dog"],
@@ -514,7 +514,7 @@ var ALL_KEYWORDS = [
 		["umbrella with rain drops", "rain", "umbrella", "weather"],
 		//-------------
 		["umbrella on ground", "umbrella"],
-		["high voltage", "electricity", "performance", "update"],
+		["high voltage", "electricity", "performance", "update", "lightning"],
 		["snowflake", "snow", "weather"],
 		["snowman", "snow"],
 		["snowman without snow", "snowman"],
@@ -646,10 +646,10 @@ var ALL_KEYWORDS = [
 		["amphora"]
 	], [ // Travels and places
 	//-----maps-----------------------------------------------------------------
-		["globe showing europe-africa", "europe", "africa"],
-		["globe showing americas", "america"],
-		["globe showing asia-australia", "asia", "australia"],
-		["globe with meridians", "meridians", "internationalization", "localization", "i18n"],
+		["globe showing europe-africa", "europe", "africa", "earth", "world", "planet"],
+		["globe showing americas", "america", "earth", "world", "planet"],
+		["globe showing asia-australia", "asia", "australia", "earth", "world", "planet"],
+		["globe with meridians", "meridians", "internationalization", "localization", "i18n", "map"],
 		["world map", "map", "world"],
 		["map of japan", "japan", "map"],
 	//-----geographic-----------------------------------------------------------
@@ -709,7 +709,7 @@ var ALL_KEYWORDS = [
 		["sunset", "sun"],
 		["bridge at night", "bridge", "night"],
 		["hot springs", "baths", "japan"],
-		["milky way", "stars", "space"],
+		["milky way", "stars", "space", "galaxy", "sky", "universe"],
 		["carousel horse", "amusement park"],
 		["ferris wheel", "amusement park"],
 		["roller coaster", "amusement park"],
@@ -956,8 +956,8 @@ var ALL_KEYWORDS = [
 		["video camera"],
 		["videocassette"],
 	//-----light
-		["left-pointing magnifying glass", "seo"],
-		["right-pointing magnifying glass"],
+		["left-pointing magnifying glass", "seo", "loupe", "search"],
+		["right-pointing magnifying glass", "loupe", "search"],
 		["microscope"],
 		//-------------
 		["telescope"],
